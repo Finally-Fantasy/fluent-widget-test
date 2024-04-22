@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>PictureMode</class>
+ <widget class="QWidget" name="PictureMode">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>960</width>
+    <height>810</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string extracomment="图片模式">PictureMode</string>
+  </property>
+  <widget class="HorizontalFlipView" name="picture_show">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>60</y>
+     <width>675</width>
+     <height>675</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="Slider" name="Slider_2">
+   <property name="geometry">
+    <rect>
+     <x>800</x>
+     <y>430</y>
+     <width>200</width>
+     <height>161</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="Slider" name="Slider">
+   <property name="geometry">
+    <rect>
+     <x>800</x>
+     <y>160</y>
+     <width>200</width>
+     <height>141</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="SubtitleLabel" name="SubtitleLabel">
+   <property name="geometry">
+    <rect>
+     <x>780</x>
+     <y>100</y>
+     <width>131</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>置信度</string>
+   </property>
+   <property name="textFormat">
+    <enum>Qt::AutoText</enum>
+   </property>
+  </widget>
+  <widget class="SubtitleLabel" name="SubtitleLabel_2">
+   <property name="geometry">
+    <rect>
+     <x>760</x>
+     <y>360</y>
+     <width>141</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>非极大抑制</string>
+   </property>
+  </widget>
+  <widget class="PrimaryPushButton" name="choose_one">
+   <property name="geometry">
+    <rect>
+     <x>780</x>
+     <y>620</y>
+     <width>131</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Primary push button</string>
+   </property>
+  </widget>
+  <widget class="PrimaryPushButton" name="choose_all">
+   <property name="geometry">
+    <rect>
+     <x>780</x>
+     <y>680</y>
+     <width>131</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Primary push button</string>
+   </property>
+  </widget>
+  <widget class="InfoBadge" name="InfoBadge">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>370</y>
+     <width>241</width>
+     <height>51</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>PushButton</class>
+   <extends>QPushButton</extends>
+   <header>qfluentwidgets</header>
+  </customwidget>
+  <customwidget>
+   <class>PrimaryPushButton</class>
+   <extends>PushButton</extends>
+   <header>qfluentwidgets</header>
+  </customwidget>
+  <customwidget>
+   <class>Slider</class>
+   <extends>QSlider</extends>
+   <header>qfluentwidgets</header>
+  </customwidget>
+  <customwidget>
+   <class>SubtitleLabel</class>
+   <extends>QLabel</extends>
+   <header>qfluentwidgets</header>
+  </customwidget>
+  <customwidget>
+   <class>InfoBadge</class>
+   <extends>QLabel</extends>
+   <header>qfluentwidgets</header>
+  </customwidget>
+  <customwidget>
+   <class>HorizontalFlipView</class>
+   <extends>QListWidget</extends>
+   <header>qfluentwidgets</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
